@@ -1,9 +1,10 @@
 import React from 'react'
+import 'animate.css';
 
 function Welcome() {
   return (
     <section className="home" id="home">
-      <div className="home-content">
+      <div className="home-content animate__animated animate__backInLeft animate__delay-5s">
         <div className="home-details">
           <div className="home-text">
             <h2 className="homeTitle">
