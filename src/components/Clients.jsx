@@ -1,9 +1,10 @@
 import React from 'react'
+import 'animate.css';
 
 function Clients() {
   return (
     <section className="section brand">
-      <div className="brand-container container">
+      <div className="brand-container container animate__animated animate__backInLeft animate__delay-5s">
         <h2
           style={{
             alignItems: "center",
