@@ -1,11 +1,12 @@
 import React from 'react'
 import 'boxicons'
+import 'animate.css';
 
 function Footer() {
   return (
     <footer className="section footer">
       <div className="footer-container container">
-        <div className="footer-content">
+        <div className="footer-content animate__animated animate__backInLeft animate__delay-5s">
           <a href="index.html" className="logo-content flex">
             <img src="images/LOGO.svg" />
           </a>
