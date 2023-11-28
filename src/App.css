@@ -346,6 +346,10 @@ a:hover{
   .header-active .navOpen-btn{
     color: var(--text-color);
   }
+
+  .brand-img {
+    width: 100%;
+}
 }
 
 
@@ -1119,5 +1123,9 @@ a:hover{
 }
 .button:hover{
   background-color: var(--primary-color-hover);
+}
+
+.brand-img {
+  width: 100;
 }
 }
