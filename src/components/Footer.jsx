@@ -1,6 +1,12 @@
 import React from 'react'
 import 'boxicons'
 import 'animate.css';
+import { FaFacebookF } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { BsInstagram } from "react-icons/bs"
+import { BsWhatsapp } from "react-icons/bs";
+import { FaLocationPin } from "react-icons/fa6";
+import { IoCallSharp } from "react-icons/io5";
 
 function Footer() {
   return (
@@ -65,11 +71,11 @@ function Footer() {
             <h4 className="footerLinks-title">Contact Us</h4>
             <br />
             <div className="footer-location flex">
-              <i className="bx bx-map map-icon" />
+            <FaLocationPin />
               <div className="location-text">123, Our address Street</div>
             </div>
             <div className="footer-location flex">
-              <i className="bx bx-phone phone-icon" />
+            <IoCallSharp />
               <div className="location-text">09041581989</div>
             </div>
             <span className="phone-number" />
@@ -77,21 +83,23 @@ function Footer() {
         </div>
       </div>
       <div className="footer-copyRight">
-        <p>Copyright © 2023 Cocoa World. All rights reserved</p>
+        <p>Copyright © 2023 Cocoa World. All rights reserved. <br/>             
         <div className="icons">
           <a href="https://www.facebook.com">
-            <i className="bx bxl-facebook" />
+          <FaFacebookF />
           </a>
           <a href="https://twitter.com/i/flow/login">
-            <i className="bx bxl-twitter" />
+            <FaXTwitter />
           </a>
           <a href="https://www.instagram.com/accounts/login">
-            <i className="bx bxl-instagram-alt" />
+           <BsInstagram />
           </a>
           <a href="https://github.com/Dahvidh">
-            <i className="bx bxl-github" />
+          <BsWhatsapp />
           </a>
         </div>
+        </p>
+       
       </div>
     </footer>
   )
