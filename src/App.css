@@ -793,7 +793,10 @@ a:hover{
   color: rgba(255, 255, 255, 0.8);
 }
 .footer-copyRight p{
-    display: flex;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .icons {
