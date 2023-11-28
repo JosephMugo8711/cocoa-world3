@@ -1,6 +1,7 @@
 import React from 'react';
 import 'animate.css';
-//import { BxFacebook, BxTwitter, BxInstagram, BxGithub, BxYoutube } from 'boxicons';
+import { MdClose } from "react-icons/md";
+import { IoMenu } from "react-icons/io5";
 
 function Header() {
   return (
@@ -43,27 +44,11 @@ function Header() {
               </a>
             </li>
           </ul>
-          <div className="media-icons flex">
-            <a href="https://www.facebook.com">
-              {/*<BxFacebook />*/} 
-            </a>
-            <a href="https://twitter.com/i/flow/login">
-             {/*<BxTwitter/> */} 
-            </a>
-            <a href="https://www.instagram.com/accounts/login">
-              {/* <BxInstagram />*/}
-            </a>
-            <a href="https://github.com/login">
-             {/* <BxGithub />*/} 
-            </a>
-            <a href="https://www.youtube.com/login">
-              {/*<BxYoutube/> */}
-            </a>
-          </div>
-          <i className="bx bx-x navClose-btn" />
+
+          <MdClose />
         </div>
 
-        <i className="bx bx-menu navOpen-btn" />
+        <IoMenu />
       </nav>
     </header>
   );
